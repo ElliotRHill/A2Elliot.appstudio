@@ -1,1 +1,0 @@
-let Assignment2 = 'arrays'
