@@ -1,4 +1,4 @@
-/*
+
 let firstName = prompt('Enter your first name')
 
 let state = prompt('Enter your state(2 letter abbreviation ie NE or FL)')
@@ -17,10 +17,9 @@ let messages = [output1, output2, output3, output4]
 
 if (temperature < 32 && state == 'NE')
     console.log(`${firstName}, ${messages[0]}`)
-else if ((temperature > 32 || temperature < 50) && state == 'NE')
+else if ((temperature > 32 && temperature < 50) && state == 'NE')
     console.log(`${firstName}, ${messages[1]}`)
-else if ((temperature > 32 || temperature < 50) && state == 'FL')
+else if ((temperature > 32 |&& temperature < 50) && state == 'FL')
     console.log(`${firstName}, ${messages[2]}`)
-else if ((temperature > 50 || temperature < 70) && state == 'FL')
+else if ((temperature > 50 && temperature < 70) && state == 'FL')
     console.log(`${firstName}, ${messages[3]}`)
-*/
